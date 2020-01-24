@@ -6,6 +6,24 @@ html {
 
 }
 
+.content {
+	background: white;
+	border: 4px solid $pink;
+	@media screen and (min-width:$screen-sm){
+		border: 8px solid $pink;
+	}
+}
+
+.content__hero {
+	margin-top: 105px;
+	@media screen and (min-width:$screen-sm){
+		margin-top: 270px;
+	}
+}
+
+
+
+
 //Utility
 .container {
 	position: relative;

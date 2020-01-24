@@ -1,11 +1,4 @@
-.home {
-	background: white;
-	border: 4px solid $pink;
-	@media screen and (min-width:$screen-sm){
-		border: 8px solid $pink;
-	}
-
-	
+.home {	
 	.home__content {
 		text-align: center;
 	}
@@ -17,12 +10,6 @@
 		margin: 40px 0;
 		@media screen and (min-width:$screen-sm){
 			margin: 70px 0;
-		}
-	}
-	.home__hero {
-		margin-top: 105px;
-		@media screen and (min-width:$screen-sm){
-			margin-top: 270px;
 		}
 	}
 	.home__content-headline {
