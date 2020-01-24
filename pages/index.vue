@@ -5,7 +5,7 @@
 		<!-- Hero image -->
 		<div class="home__hero content__hero">
 			<div class="desktop-container">
-				<img src="~assets/images/cookie-hero.jpg" alt="">
+				<img src="~assets/images/home-hero.jpg" alt="">
 			</div>
 		</div>
 
