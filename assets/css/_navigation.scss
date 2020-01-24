@@ -1,0 +1,73 @@
+.nav {
+	padding: 7px 0;
+	position: fixed;
+	top: 0px;
+	z-index: 9;
+	background: white;
+	width: calc(100% - 8px);
+	border-top: 4px solid $pink;
+	left: 4px;
+	
+	@media screen and (min-width:$screen-sm){
+		padding: 30px 0;
+		position: fixed;
+		width: calc(100% - 16px);
+		border-top: 8px solid $pink;
+		left: 8px;
+	}
+	.nav__inner {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		max-width: 600px;
+		margin: auto;
+		@media screen and (min-width:$screen-sm){
+			max-width: 700px;
+			justify-content: space-between;
+		}
+	}
+	.nav__link {
+		color: $purple;
+		display: inline-block;
+		font-size: 13px;
+		font-weight: bold;
+		position: relative;
+		@media screen and (min-width:$screen-sm){
+			font-size: 22px;
+			font-weight: initial;
+		}
+		$thetransition: all .5s cubic-bezier(1,.25,0,.75) 0s;
+		/*
+		  webkit-transition: all 0.15s ease-out;
+		  -moz-transition: all 0.15s ease-out;
+		  -o-transition: all 0.15s ease-out;
+		  -ms-transition: all 0.15s ease-out;
+		  transition: all 0.15s ease-out;
+		*/
+		&:before {
+		  content: "";
+		  position: absolute;
+		  width: 100%;
+		  height: 2px;
+		  bottom: -3px;
+		  left: 0;
+		  background-color: $purple;
+		  visibility: hidden;
+		  -webkit-transform: scaleX(0);
+		  transform: scaleX(0);
+		  -webkit-transition: $thetransition;
+		  transition: $thetransition;
+		  }
+		  &:hover:before {
+		  visibility: visible;
+		  -webkit-transform: scaleX(1);
+		  transform: scaleX(1);
+		  }
+	}
+	.nav__logo-img {
+		width: 85px;
+		@media screen and (min-width:$screen-sm){
+			width: 200px;
+		}
+	}
+}

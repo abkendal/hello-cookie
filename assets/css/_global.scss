@@ -1,0 +1,73 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  background: $pink;
+
+}
+
+//Utility
+.container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 30px;
+	padding-left: 30px;
+	height: 100%;
+	@media screen and (min-width: 576px){
+	}
+	@media screen and (min-width:$screen-sm){
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+	@media screen and (min-width:$screen-lg){
+		padding-right: 72px;
+		padding-left: 72px;
+		max-width: 1300px;
+	}
+}
+.mobile-container {
+	@media screen and (max-width:$screen-xs-max){
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		padding-right: 30px;
+		padding-left: 30px;
+		height: 100%;
+	}
+}
+.desktop-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	@media screen and (min-width:$screen-sm){
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+	@media screen and (min-width:$screen-lg){
+		padding-right: 72px;
+		padding-left: 72px;
+		max-width: 1300px;
+	}
+}
+.mobile-only {
+	@media screen and (min-width:$screen-sm){
+		display: none !important;
+	}
+}
+.desktop-only {
+	@media screen and (max-width:$screen-xs-max){
+		display: none !important;
+	}
+}
+.sr-only {
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px
+}

@@ -1,0 +1,22 @@
+{
+  "name": "hello-cookie",
+  "version": "1.0.0",
+  "description": "This is a Nuxt static site build",
+  "author": "Adam Kendal",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "scrollmagic": "^2.0.7",
+    "vue-scrollmagic": "^1.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
+  }
+}

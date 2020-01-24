@@ -1,0 +1,88 @@
+.footer {
+	background-color: $pink;
+	color: white;
+	padding: 30px 0;
+
+	@media screen and (min-width:$screen-sm){
+		padding: 60px 0;
+	}
+	.footer__info {
+		margin-bottom: 40px;
+		@media screen and (min-width:$screen-sm){
+			display: grid;
+			grid-template-columns: 50% 25% 25%;
+			margin-bottom: 85px;
+		}
+	}
+	.footer__logo {
+		margin-bottom: 23px;
+		display: inline-block;
+		@media screen and (min-width:$screen-sm){
+			margin-bottom: 0px;
+		}
+		img {
+			width: 100px;
+			@media screen and (min-width:$screen-sm){
+				width: 100px;
+			}
+		}
+	}
+	.footer__company {
+		@media screen and (min-width:$screen-sm){
+			
+		}
+	}
+	.footer__heading {
+		font-size: 20px;
+		margin-bottom: 22px;
+		font-family: 'Gelasio', serif;
+		font-weight: bold;
+		@media screen and (min-width:$screen-sm){
+			
+		}
+		@media screen and (min-width:$screen-md){
+			font-size: 32px;
+		}
+	}
+	.footer__links {
+		font-size: 16px;
+		line-height: 1.6875;
+		margin-bottom: 30px;
+		@media screen and (min-width:$screen-sm){
+			margin-bottom: 0px;
+		}
+	}
+	.footer__link {
+		@media screen and (min-width:$screen-sm){
+			
+		}
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.footer__social {
+		@media screen and (min-width:$screen-sm){
+			
+		}
+		svg {
+			path, ellipse {
+				fill: white;
+			}
+		}
+		
+	}
+	.footer__facebook {
+		margin-right: 20px;
+		@media screen and (min-width:$screen-sm){
+			
+		}
+		&:after {
+			// background-image: ("~assets/images/facebook.svg");
+		}
+	}
+	.footer__instagram {
+		@media screen and (min-width:$screen-sm){
+			
+		}
+	}
+}
