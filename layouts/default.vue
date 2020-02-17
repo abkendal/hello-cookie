@@ -2,15 +2,7 @@
 	<div>
   		<span id="trigger--nav"></span>
   		<!-- Nav bar -->
-		<nav class="nav" id="nav">
-			<div class="nav__inner" id="nav-inner">
-				<a href="/" class="nav__link">Welcome</a>
-				<a href="/" class="nav__link">Catering</a>
-				<a href="/" class="nav__logo"><logo /></a>
-				<a href="/about" class="nav__link">About Us</a>
-				<a href="/contact" class="nav__link">Contact</a>
-			</div>
-		</nav>
+		
 
 		<!-- Page template -->
 		<nuxt />
