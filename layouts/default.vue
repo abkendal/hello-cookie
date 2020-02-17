@@ -5,13 +5,13 @@
 		<nav class="nav" id="nav">
 			<div class="nav__inner" id="nav-inner">
 				<a href="/" class="nav__link">Welcome</a>
-				<a href="/about" class="nav__link">About Us</a>
+				<a href="/" class="nav__link">Catering</a>
 				<a href="/" class="nav__logo"><logo /></a>
-				<a href="/" class="nav__link">Cookies</a>
-				<a href="/" class="nav__link">Contact</a>
+				<a href="/about" class="nav__link">About Us</a>
+				<a href="/contact" class="nav__link">Contact</a>
 			</div>
 		</nav>
-		
+
 		<!-- Page template -->
 		<nuxt />
 
@@ -62,6 +62,113 @@ export default {
 	},
 	mounted(){
 		
+		if (window.innerWidth > 786 ) {
+			// ** Declare Scene **
+				const scene1 = this.$scrollmagic.scene({
+				    // ID of element where animation starts
+				    triggerElement: '#trigger--nav',
+
+				    // {0,0.5,1} - animations starts from {top,center,end} of window
+				    triggerHook: 0,
+
+				    // Duration of animation
+				    duration: 200
+				})
+			    // Declaration of animation and attaching to element
+			    .setTween('#nav-logo', { 
+			    	css: { 
+			       		width: 100 // the tween durtion can be omitted and defaults to 1
+			    	}
+				})
+				// Add Scene to controller
+				this.$scrollmagic.addScene(scene1)
+
+
+			// ** Declare Scene **
+				const scene2 = this.$scrollmagic.scene({
+					// ID of element where animation starts
+					triggerElement: '#trigger--nav',
+
+					// {0,0.5,1} - animations starts from {top,center,end} of window
+					triggerHook: 0,
+
+					// Duration of animation
+					duration: 200
+				})
+					// Declaration of animation and attaching to element
+				.setTween('#nav-inner', { 
+					css: { 
+				   		maxWidth: 565 // the tween durtion can be omitted and defaults to 1
+					}
+				})
+
+			    // Add Scene to controller
+			    this.$scrollmagic.addScene(scene2)
+
+
+		    // ** Declare Scene **
+			    const scene3 = this.$scrollmagic.scene({
+			        // ID of element where animation starts
+			        triggerElement: '#trigger--nav',
+
+			        // {0,0.5,1} - animations starts from {top,center,end} of window
+			        triggerHook: 0,
+
+			        // Duration of animation
+			        duration: 200
+			    })
+			    // Declaration of animation and attaching to element
+		        .setTween('#nav', { 
+		        	css: { 
+		        		paddingTop: 10,
+		        		paddingBottom: 10,
+		        	}
+			    })
+			    // Add Scene to controller
+			    this.$scrollmagic.addScene(scene3)
+
+		    // ** Declare Scene **
+			    const scene4 = this.$scrollmagic.scene({
+			         // ID of element where animation starts
+			         triggerElement: '#trigger--nav',
+
+			         // {0,0.5,1} - animations starts from {top,center,end} of window
+			         triggerHook: 0,
+
+			         // Duration of animation
+			         duration: 200
+			    })
+		        // Declaration of animation and attaching to element
+		         .setTween('.nav__link', { 
+		         	css: { 
+		         		fontSize: 18,
+		         	}
+		         })
+
+		       // Add Scene to controller
+		       this.$scrollmagic.addScene(scene4)
+
+	        // ** Declare Scene **
+	    	    const scene5 = this.$scrollmagic.scene({
+	    	         // ID of element where animation starts
+	    	         triggerElement: '#trigger--nav',
+
+	    	         // {0,0.5,1} - animations starts from {top,center,end} of window
+	    	         triggerHook: 0,
+
+	    	         // Duration of animation
+	    	         duration: 200
+	    	    })
+	            // Declaration of animation and attaching to element
+	             .setTween('.nav__link', { 
+	             	css: { 
+	             		fontSize: 18,
+	             	}
+	             })
+
+	           // Add Scene to controller
+	           this.$scrollmagic.addScene(scene5)
+		}
 		
 
 	},

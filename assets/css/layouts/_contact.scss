@@ -1,0 +1,101 @@
+.contact {
+	margin-top: 105px;
+	@media screen and (min-width:$screen-sm){
+		margin-top: 270px;
+		display: flex;
+	}
+	.contact__item {
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		@media screen and (min-width:$screen-sm){
+			width: 50%;
+			padding-top: 75px;
+			padding-bottom: 75px;
+		}
+	}
+	.info {
+
+	}
+	.info__headline {
+		@extend .headline;
+		@media screen and (min-width:$screen-sm){
+			margin-bottom: 50px;
+		}
+	}
+	.info__copy {
+		@extend .copy;
+		@media screen and (min-width:$screen-sm){
+			margin-bottom: 70px;
+		}
+	}
+	.info__subhead {
+		@extend .subhead;
+	}
+	.form {
+		background: white;
+		border-left: 4px solid $pink;
+		border-right: 4px solid $pink;
+		
+		@media screen and (min-width:$screen-sm){
+			border-left: 0px solid #EAB8FF;
+			border-right: 8px solid #EAB8FF;
+		}
+		form {
+			text-align: left;
+			display: flex;
+			flex-wrap: wrap;
+		}
+	}
+	.form__input {
+		width: 100%;
+		margin: 11px 0;
+		@media screen and (min-width:$screen-sm){
+			width: 50%;
+		}
+		&.form__input--info {
+			@media screen and (min-width:$screen-sm){
+				width: 100%;
+			}
+		}
+		label {
+			margin-bottom: 10px;
+			display: block;
+		}
+		input {
+			display: block;
+			width: 100%;
+			padding: 8px;
+			border-color: #e1e1e1;
+			border-radius: 2px;
+			border-style: solid;
+			height: 46px;
+
+			@media screen and (min-width:$screen-sm){
+				width: 97%;
+			}
+		}
+		.form__input-info {
+			height: 150px;
+		}
+
+	}
+	.form__submit {
+		@extend .btn;
+		min-width: 200px;
+		margin-top: 20px;
+		font-size: 14px;
+		@media screen and (min-width:$screen-sm){
+			font-size: 16px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
