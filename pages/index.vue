@@ -30,9 +30,9 @@
 			<div class="container">
 				<div class="block__inner">
 					<div class="block__content">
-						<h3 class="block__headline">Melt in your mouth</h3>
-						<p class="block__copy">Enjoy our decadent toffee and chocolate chip cookies while theyre still warm.</p>
-						<!-- <a href="/" class="block__btn">Learn more</a> -->
+						<h3 class="block__headline">Invite us to your party</h3>
+						<p class="block__copy">Whether its a bar mitzvah, birthday or wedding, Hello Cookie is there to turn your event into something truly heart warming.</p>
+						<a href="/catering" class="block__btn">Learn more</a>
 					</div>
 					<div class="block__media">
 						<img src="~assets/images/block2.jpg" alt="" class="block__image">
@@ -40,6 +40,8 @@
 				</div>
 			</div>
 		</div>
+
+		
 
 		<div class="block block--a">
 			<div class="block__inner container">
@@ -47,27 +49,13 @@
 					<img src="~assets/images/block3.jpg" alt="" class="block__image">
 				</div>
 				<div class="block__content">
-					<h3 class="block__headline">Heaven in just one bite</h3>
-					<p class="block__copy">Get either a half or a full dozen delicious, freshly made mini-cookies and wash them down with a cold glass of milk.</p>
-					<a href="/" class="block__btn">Learn more</a>
+					<h3 class="block__headline">Melt in your mouth</h3>
+					<p class="block__copy">Enjoy our decadent toffee and chocolate chip cookies while theyre still warm then wash them down with a cold glass of milk</p>
+					<a href="/about" class="block__btn">Learn more</a>
 				</div>
 			</div>
 		</div>
 
-		<div class="block block--b">
-			<div class="container">
-				<div class="block__inner">
-					<div class="block__content">
-						<h3 class="block__headline">Invite us to your party</h3>
-						<p class="block__copy">Whether its a street festival, birthday or wedding, Hello Cookie is there to turn your event into something truly heart warming.</p>
-						<a href="/" class="block__btn">Learn more</a>
-					</div>
-					<div class="block__media">
-						<img src="~assets/images/block2.jpg" alt="" class="block__image">
-					</div>
-				</div>
-			</div>
-		</div>
 
 	</div>
 </template>

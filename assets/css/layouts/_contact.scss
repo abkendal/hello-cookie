@@ -1,7 +1,6 @@
 .contact {
-	margin-top: 105px;
+	@extend .subpage;
 	@media screen and (min-width:$screen-sm){
-		margin-top: 270px;
 		display: flex;
 	}
 	.contact__item {
@@ -34,12 +33,9 @@
 	}
 	.form {
 		background: white;
-		border-left: 4px solid $pink;
-		border-right: 4px solid $pink;
-		
+
 		@media screen and (min-width:$screen-sm){
-			border-left: 0px solid #EAB8FF;
-			border-right: 8px solid #EAB8FF;
+
 		}
 		form {
 			text-align: left;

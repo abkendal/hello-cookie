@@ -1,0 +1,36 @@
+.about {
+	@extend .subpage;
+	background: white;
+	@media screen and (min-width:$screen-sm){
+
+	}
+	.hero {
+		overflow: hidden;
+		@media screen and (min-width:$screen-sm){
+			height: 300px;
+		}
+	}
+	.body {
+		padding: 30px;
+		@media screen and (min-width:$screen-sm){
+			padding: 100px;
+		}
+	}
+	.body__headline {
+		text-align: center;
+		@extend .headline;
+
+		@media screen and (min-width:$screen-sm){
+			margin-bottom: 100px;
+		}
+	}
+	.body__inner {
+		@media screen and (min-width:$screen-sm){
+			width: 80%;
+			margin: auto;
+		}
+		p {
+			@extend .copy;
+		}
+	}
+}
