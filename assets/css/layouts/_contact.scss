@@ -17,7 +17,7 @@
 
 	}
 	.info__headline {
-		@extend .headline;
+		@extend .headline1;
 		@media screen and (min-width:$screen-sm){
 			margin-bottom: 50px;
 		}

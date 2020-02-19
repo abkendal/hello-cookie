@@ -1,0 +1,36 @@
+// Headline component
+
+.headline {
+	text-align: center;
+
+	.headline__divider {
+		height: 90px;
+		width: 1px;
+		background: black;
+		display: inline-block;
+		margin: 40px 0;
+		@media screen and (min-width:$screen-sm){
+			margin: 70px 0 65px;
+		}
+	}
+	.headline__content-headline {
+		text-align: center;
+		font-family: 'Gelasio', serif;
+		margin-bottom: 24px;
+		font-size:32px;
+		font-weight: bold;
+		@media screen and (min-width:$screen-sm){
+			font-size: 64px;
+			margin-bottom: 48px;
+			padding-top: 5px;
+		}
+	}
+	.headline__subhead {
+		@extend .copy;
+		@media screen and (min-width:$screen-sm){
+			max-width: 800px;
+			margin: 0 auto 50px auto;
+		}
+	}
+}
+

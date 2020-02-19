@@ -26,11 +26,11 @@ html {
 }
 
 .subpage {
-	margin-top: 105px;
+	padding-top: 105px;
 	border-left: 4px solid $pink;
 	border-right: 4px solid $pink;
 	@media screen and (min-width:$screen-sm){
-		margin-top: 270px;
+		padding-top: 270px;
 		border-left: 8px solid $pink;
 		border-right: 8px solid $pink;
 	}

@@ -18,7 +18,7 @@
 	}
 	.body__headline {
 		text-align: center;
-		@extend .headline;
+		@extend .headline1;
 
 		@media screen and (min-width:$screen-sm){
 			margin-bottom: 100px;

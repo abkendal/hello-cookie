@@ -8,11 +8,13 @@
 			</div>
 		</div>
 
-		<!-- Home content blocks -->
-		<div class="home__content">
-			<span class="home__divider"></span>
-			<h2 class="home__content-headline">Gourmet cookies,<br>fresh out of the oven.</h2>
+		<!-- Headline component -->
+		<div class="headline">
+			<span class="headline__divider"></span>
+			<h2 class="headline__content-headline">Gourmet cookies,<br>fresh out of the oven.</h2>
 		</div>
+
+		<!-- Block components -->
 		<div class="block block--a">
 			<div class="block__inner container">
 				<div class="block__media">
