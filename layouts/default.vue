@@ -27,7 +27,7 @@
 								<a href="/contact" class="footer__link">Contact Us</a>
 							</li>
 							<li>
-								<a href="/" class="footer__link">Press</a>
+								<a href="/about" class="footer__link">About</a>
 							</li>
 							<li>
 								<a href="/contact" class="footer__link">Bookings</a>

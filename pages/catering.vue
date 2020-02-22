@@ -3,8 +3,10 @@
 
 		<!-- Home content blocks -->
 		<div class="headline">
-			<h2 class="headline__content-headline">Unforgettable Toronto<br>cookie experiences</h2>
-			<p class="headline__subhead">At Hello Cookie Catering, we're committed to bringing your event to life with freshly baked gourmet cookies and the kind of charming serice that you'd expect from Toronto's top fresh cookie catering service. From corporate events to weddings, our warm cookies are guaranteed to bring a smile to your guests faces.</p>
+			<div class="container">
+				<h2 class="headline__content-headline">Unforgettable Toronto<br>cookie experiences</h2>
+				<p class="test headline__subhead">At Hello Cookie Catering, we're committed to bringing your event to life with freshly baked gourmet cookies and the kind of charming serice that you'd expect from Toronto's top fresh cookie catering service. From corporate events to weddings, our warm cookies are guaranteed to bring a smile to your guests faces.</p>
+			</div>
 		</div>
 
 		<div class="block block--a">
