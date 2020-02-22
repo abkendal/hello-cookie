@@ -10,8 +10,10 @@
 
 		<!-- Headline component -->
 		<div class="headline">
-			<span class="headline__divider"></span>
-			<h2 class="headline__content-headline">Gourmet cookies,<br>fresh out of the oven.</h2>
+			<div class="container">
+				<span class="headline__divider"></span>
+				<h2 class="headline__content-headline">Gourmet cookies,<br>fresh out of the oven.</h2>
+			</div>
 		</div>
 
 		<!-- Block components -->
