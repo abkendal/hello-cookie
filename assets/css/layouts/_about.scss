@@ -35,39 +35,4 @@
 			@extend .copy;
 		}
 	}
-
-	// Uber Eats Menu
-	.body__row {
-		width: 100%;
-		@media screen and (min-width:$screen-sm){
-			display: flex;
-			justify-content: space-between;
-		}
-		h2 {
-			font-size: 16px;
-			font-weight: bold;
-			margin-bottom: 10px;
-			line-height: 1.4;
-			@media screen and (min-width:$screen-sm){
-				font-size: 20px;
-				font-weight: bold;
-			}
-		}
-		p {
-			line-height: 1.3875;
-			@media screen and (min-width:$screen-sm){
-				line-height: 1.6875;
-			}
-		}
-		.body__price {
-			margin-bottom: 25px;
-			font-size: 16px;
-			font-weight: bold;
-			@media screen and (min-width:$screen-sm){
-				font-size: 20px;
-				
-			}
-			
-		}
-	}
 }
