@@ -7,7 +7,7 @@
         </div>
         <div class="body">
             <div class="container">
-                <h1 class="body__headline">Uber Eats Menu</h1>
+                <h1 class="body__headline">Delivery Menu</h1>
                 <div class="body__inner">
                     <div class="body__row">
                         <div class="body__item">
